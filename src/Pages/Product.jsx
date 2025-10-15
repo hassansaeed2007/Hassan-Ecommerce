@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './product.css';
+import './Product.css';
 
 const API_URL = 'https://fakestoreapi.com/products';
 const API_CATEGORIES = 'https://fakestoreapi.com/products/categories';
