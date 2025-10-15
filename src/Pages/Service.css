@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+.services-page {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #8e2de2;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Service Box */
+.service-box {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.service-box .icon {
+  font-size: 3rem;
+  color: #8e2de2;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.service-box h3 {
+  font-size: 1.25rem;
+  color: #e0e0e0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.service-box p {
+  font-size: 1rem;
+  color: #b0b0b0;
+  line-height: 1.5;
+}
